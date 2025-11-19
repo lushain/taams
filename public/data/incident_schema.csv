@@ -1,0 +1,15 @@
+incident_id,road_id,km_marker,timestamp,incident_type,severity,affected_lanes,duration_minutes
+1,1,8,2023-01-01 08:15:00,accident,high,3,120
+2,1,22,2023-01-02 17:30:00,breakdown,medium,1,45
+3,2,11,2023-01-03 09:20:00,accident,medium,2,90
+4,2,28,2023-01-04 13:45:00,roadwork,low,1,240
+5,3,6,2023-01-05 07:50:00,accident,high,3,180
+6,3,19,2023-01-06 16:10:00,debris,low,1,30
+7,4,9,2023-01-07 10:25:00,accident,medium,2,105
+8,4,21,2023-01-08 18:40:00,breakdown,low,1,60
+9,5,14,2023-01-09 12:05:00,accident,high,2,150
+10,6,7,2023-01-10 08:30:00,roadwork,medium,2,360
+11,7,12,2023-01-11 14:20:00,accident,medium,1,75
+12,8,5,2023-01-12 11:40:00,breakdown,low,1,40
+13,9,11,2023-01-13 09:15:00,accident,high,2,135
+14,10,17,2023-01-14 15:55:00,debris,low,1,25

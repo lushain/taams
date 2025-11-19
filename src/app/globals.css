@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 18, 18, 18;
+  --background-end-rgb: 10, 10, 10;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold;
+  }
+  h2 {
+    @apply text-xl font-semibold;
+  }
+  h3 {
+    @apply text-lg font-medium;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-lg p-4 bg-card-dark shadow-md hover:shadow-lg transition-shadow duration-300;
+  }
+  
+  .stat-card {
+    @apply card flex flex-col items-center justify-center text-center gap-2;
+  }
+  
+  .nav-button {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .nav-button-active {
+    @apply bg-white text-background-dark;
+  }
+  
+  .nav-button-inactive {
+    @apply bg-transparent text-white hover:bg-white/10;
+  }
+}

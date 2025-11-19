@@ -1,0 +1,11 @@
+road_id,road_name,length_km,zone_id,lanes,road_type
+1,Ring Road,45,1,8,highway
+2,Outer Ring Road,51,2,6,highway
+3,NH-48,35,3,8,national_highway
+4,Mathura Road,28,4,6,state_highway
+5,Loni Road,24,5,4,city_road
+6,Rohtak Road,30,6,6,state_highway
+7,Mehrauli-Badarpur Road,22,7,4,city_road
+8,Aurobindo Marg,15,3,6,city_road
+9,Vikas Marg,18,4,6,city_road
+10,Najafgarh Road,25,6,4,city_road
